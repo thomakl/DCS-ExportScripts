@@ -756,7 +756,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	end
 
 	-- PCA_UR (Weappon Panel top line)
-	local lPCAUR = list_indication(6)
+	local lPCAUR = list_indication(4)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPCAUR : '..ExportScript.Tools.dump(lPCAUR))
 	end
@@ -791,7 +791,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2014, string.format("%s", lPCA_UR[5]))
 
 	-- PCA_BR (Weappon Panel bottom line)
-	local lPCABR = list_indication(7)
+	local lPCABR = list_indication(5)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPCABR : '..ExportScript.Tools.dump(lPCABR))
 	end
@@ -860,7 +860,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2021, string.format("%s", lCOM2))
 	
 	-- PPA Bomb Display
-	local lPPA = list_indication(8)
+	local lPPA = list_indication(6)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPPA : '..ExportScript.Tools.dump(lPPA))
 	end
