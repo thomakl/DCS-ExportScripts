@@ -739,7 +739,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	end
 
 	-- FUEL
-	local lFUEL = ExportScript.Tools.getListIndicatorValue(5)
+	local lFUEL = ExportScript.Tools.getListIndicatorValue(3)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lFUEL : '..ExportScript.Tools.dump(lFUEL))
 	end
@@ -756,7 +756,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	end
 
 	-- PCA_UR (Weappon Panel top line)
-	local lPCAUR = list_indication(6)
+	local lPCAUR = list_indication(4)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPCAUR : '..ExportScript.Tools.dump(lPCAUR))
 	end
@@ -791,7 +791,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2014, string.format("%s", lPCA_UR[5]))
 
 	-- PCA_BR (Weappon Panel bottom line)
-	local lPCABR = list_indication(7)
+	local lPCABR = list_indication(5)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPCABR : '..ExportScript.Tools.dump(lPCABR))
 	end
@@ -826,7 +826,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2019, string.format("%s", lPCA_BR[5]))
 
 	-- COM
-	local lCOM = list_indication(9)
+	local lCOM = list_indication(7)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lCOM : '..ExportScript.Tools.dump(lCOM))
 	end
@@ -860,7 +860,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2021, string.format("%s", lCOM2))
 	
 	-- PPA Bomb Display
-	local lPPA = list_indication(8)
+	local lPPA = list_indication(6)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPPA : '..ExportScript.Tools.dump(lPPA))
 	end
@@ -895,13 +895,13 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 
 	-- PCN_UR Navigation Displays
 	if ExportScript.Config.Debug then
-		local lPCNUR = list_indication(10)
+		local lPCNUR = list_indication(9)
 		ExportScript.Tools.WriteToLog('lPCNUR : '..ExportScript.Tools.dump(lPCNUR))
 	end
 
 	--    SubLeftTop    SubRightTop   SubLeftBottom SubRightBottom MainLeft     MainRight
 	local lPCN_sub_L_T, lPCN_sub_R_T, lPCN_sub_L_B, lPCN_sub_R_B,  lPCN_main_L, lPCN_main_R = "", "", "", "", "", ""
-	local lPCNUR = ExportScript.Tools.getListIndicatorValue(10)
+	local lPCNUR = ExportScript.Tools.getListIndicatorValue(9)
 	-- das untere durch solche aufrufe ersetzen
 	if lPCNUR.text_PCN_R_INT ~= nil then
 		lPCN_main_R = lPCNUR.text_PCN_R_INT
@@ -1010,7 +1010,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2029, string.format("%s", lPCN_main_R))
 
 	-- PCN_BR (Naviagation, wahrscheinlich die Wegpunktanzeige)
-	local lPCNBR = list_indication(11)
+	local lPCNBR = list_indication(10)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lPCNBR : '..ExportScript.Tools.dump(lPCNBR))
 	end
