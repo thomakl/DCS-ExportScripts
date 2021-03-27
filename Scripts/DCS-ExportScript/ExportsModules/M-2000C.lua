@@ -739,7 +739,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	end
 
 	-- FUEL
-	local lFUEL = ExportScript.Tools.getListIndicatorValue(5)
+	local lFUEL = ExportScript.Tools.getListIndicatorValue(3)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lFUEL : '..ExportScript.Tools.dump(lFUEL))
 	end
@@ -826,7 +826,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2019, string.format("%s", lPCA_BR[5]))
 
 	-- COM
-	local lCOM = list_indication(9)
+	local lCOM = list_indication(7)
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('lCOM : '..ExportScript.Tools.dump(lCOM))
 	end
