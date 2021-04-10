@@ -28,7 +28,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[231] = "%.1f",	--DA
 	[232] = "%.1f",	--D2M
 	[233] = "%.1f",	--LL
-
+ 
 -- Autopilot Controls/Indicator Lights
 	[267] = "%.1f",	--button P light
 	[268] = "%.1f",	--button MIS light
