@@ -3,7 +3,7 @@
 ExportScript.FoundDCSModule = true
 ExportScript.Version.M2000C = "1.2.1"
 
-ExportScript.ConfigEveryFrameArguments = 
+ExportScript.ConfigEveryFrameArguments =
 {
 	--[[
 	every frames arguments
@@ -17,18 +17,18 @@ ExportScript.ConfigEveryFrameArguments =
 	]]
 
 -- LAMPS / DISPLAYS --------------------------------------
-	[185] = "%.1f",	--LIM, MIP, 
+	[185] = "%.1f",	--LIM, MIP,
 	[186] = "%.1f",	--IFF, MIP, Acc
 	[187] = "%.1f",	--LED green, ADI
 	[188] = "%.1f",	--LED green, ADI
-	
+
 -- RWR Lamps
 	[229] = "%.1f",	--V
 	[230] = "%.1f",	--BR
 	[231] = "%.1f",	--DA
 	[232] = "%.1f",	--D2M
 	[233] = "%.1f",	--LL
-	
+
 -- Autopilot Controls/Indicator Lights
 	[267] = "%.1f",	--button P light
 	[268] = "%.1f",	--button MIS light
@@ -36,17 +36,17 @@ ExportScript.ConfigEveryFrameArguments =
 	[271] = "%.1f",	--button MAN light
 	[273] = "%.1f",	--button MAG-P light
 	[274] = "%.1f",	--button MAG-MAG light
-	
+
 	[280] = "%.1f",	--button TOT light
 	[281] = "%.1f",	--button PAP light
-	
+
 -- Weapon panel
 	[236] = "%.1f",	--button1 S 001 light
 	[238] = "%.1f",	--button2 S 001 light
 	[240] = "%.1f",	--button3 S 001 light
 	[242] = "%.1f",	--button4 S 001 light
 	[244] = "%.1f",	--button5 S 001 light
-	
+
 	[251] = "%.1f",	--button1 S 002 light
 	[252] = "%.1f",	--button1 P 002 light
 	[254] = "%.1f",	--button2 S 002 light
@@ -57,14 +57,14 @@ ExportScript.ConfigEveryFrameArguments =
 	[261] = "%.1f",	--button4 P 002 light
 	[263] = "%.1f",	--button5 S 002 light
 	[264] = "%.1f",	--button5 P 002 light
-	
+
 	[246] = "%.1f",	--button KL1 light
 	[247] = "%.1f",	--button KL2 light
-	
+
 	[321] = "%.1f",	--ADI ILS light
 	[374] = "%.1f", --Fire light 1
 	[375] = "%.1f",	--Fire light 2
-	
+
 -- AUTOPILOT lights
 	[283] = "%.1f",	--P
 	[284] = "%.1f",	--A
@@ -83,7 +83,7 @@ ExportScript.ConfigEveryFrameArguments =
  	[373] = "%.1f",	--Afterburner light
 	[376] = "%.1f",	--starter light
 	[198] = "%.1f",	--tranfere
-	[199] = "%.1f",	--master-warning 
+	[199] = "%.1f",	--master-warning
 	[200] = "%.1f",	--master-caution
 -- INSTRUMENTS -------------------------------------------
 
@@ -93,12 +93,12 @@ ExportScript.ConfigEveryFrameArguments =
 	--[226] = "%.4f",	--Drum 00X0
 	--[227] = "%.4f",	--Drum 000X
 
--- AUTOPILOT ALTITUDE SELECTOR: Adjust autopilot altitude hold value.	
+-- AUTOPILOT ALTITUDE SELECTOR: Adjust autopilot altitude hold value.
 	--[299] = "%.4f",	--Alt Drum X00
 	--[300] = "%.4f",	--Alt Drum 0X0
 	--[301] = "%.4f",	--Alt Drum 00X
 
--- BINGO FUEL SELECTOR: Adjust the value for the Bingo Fuel warning	
+-- BINGO FUEL SELECTOR: Adjust the value for the Bingo Fuel warning
 	[360] = "%.4f",	--Drum X0
 	[361] = "%.4f",	--Drum 0X
 
@@ -106,7 +106,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[303] = "%.4f",	--asi needle
 	[304] = "%.4f",	--mach wheel
 
--- ALTITUDE INDICATOR: indicates barometric altitude (MSL) in feet 
+-- ALTITUDE INDICATOR: indicates barometric altitude (MSL) in feet
 	[305] = "%.4f",	--Needle
 	[306] = "%.4f",	--Alt Drum X00
 	[307] = "%.4f",	--Alt Drum 0X0
@@ -115,7 +115,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[311] = "%.4f",	--Pressure Drum 0X00
 	[312] = "%.4f",	--Pressure Drum 00X0
 	[313] = "%.4f",	--Pressure Drum 000X
-	
+
 -- ADI
 	[316] = "%.4f",	--pitch
 	[317] = "%.4f",	--bank
@@ -123,14 +123,14 @@ ExportScript.ConfigEveryFrameArguments =
 	[319] = "%.1f",	--off flag
 	[320] = "%.4f",	--slip ball
 	[322] = "%.4f",	--ILS bar course
-	[323] = "%.4f",	--ILS bar alt 
-	
+	[323] = "%.4f",	--ILS bar alt
+
 -- VVI
 	[324] = "%.4f",	--VVI needle
 
--- ADI Standby	
+-- ADI Standby
 	[327] = "%.4f",	--pitch
-	[326] = "%.4f",	--bank 
+	[326] = "%.4f",	--bank
 	[328] = "%.4f",	--adjust / White Silhouette
 	[329] = "%.1f",	--off flag
 
@@ -146,7 +146,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[335] = "%.4f",	--Needle small
 	[336] = "%.4f",	--Drum X000
 	[337] = "%.4f",	--Drum 0X00
-	[338] = "%.4f",	--Drum 00X0 
+	[338] = "%.4f",	--Drum 00X0
 	[339] = "%.4f",	--Drum 000X
 	[342] = "%.4f",	--Compass rose
 	[344] = "%.1f",	--HSI Flag 1
@@ -178,7 +178,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[366] = "%.1f",	--light R AV
 	[367] = "%.1f",	--light L V
 	[368] = "%.1f",	--light R V
-	
+
 -- ENGINE INSTRUMENTS: Indicates engine RPM and Temperature.
 	[369] = "%.4f",	--N needle
 	[370] = "%.4f",	--Tt7 needle
@@ -193,17 +193,17 @@ ExportScript.ConfigEveryFrameArguments =
 	[380] = "%.4f",	--	0X00
 	[381] = "%.4f",	--	00X0
 	[382] = "%.4f",	--	000X
-	
+
 	[388] = "%.1f",	--	Rote Kontrollampe MODE-4 Panel
 	[394] = "%.1f",	--	gelbe „FAULT“ Anzeige
 
 -- Pressuge
 	[397] = "%.4f",	--Needle left
 	[398] = "%.4f",	--Needle right
-	
+
 -- Cabin climb (x 1000 ft)
 	[399] = "%.4f",	--Needle
-	
+
 -- Clock
 	[401] = "%.4f",	--hours
 	[402] = "%.4f",	--minutes
@@ -238,18 +238,18 @@ ExportScript.ConfigEveryFrameArguments =
 	--[444] = "%.4f",	--	Drum 0000.XX  (00-25-50-75-00)
 	--[190] = "%.4f",	--	Drum X0 Preset  (0-1-2)
 	--[189] = "%.4f",	--	Drum 0X Preset (0-9-0)
-	[675] = "%.1f",	--	TEST Button COM Panel, red		
+	[675] = "%.1f",	--	TEST Button COM Panel, red
 	[676] = "%.1f",	--	Test Button Panel over COM Panel, red
 	[677] = "%.1f",	--	Left green lamp
 
 -- Compass
 	[906] = "%.4f",	--Rose
-	
+
 -- Oxygen
 	[518] = "%.4f",	--Needle
 	[519] = "%.1f",	--Oxy flow lamp (blue)
-	
-	
+
+
 -- Left consule Lamps
 	[490] = "%.1f",	-- „VAL”
 	[492] = "%.1f",	-- „A“ Kontrolllampe  mittleres Panel
@@ -266,46 +266,46 @@ ExportScript.ConfigEveryFrameArguments =
 	--[519] = "%.4f",	--	LOX flow blinker
 
 -- WARNING PANEL
-	[525] = "%.1f",	--  BATT	
-	[526] = "%.1f",	--  TR	
-	[527] = "%.1f",	--  ALT 1	
+	[525] = "%.1f",	--  BATT
+	[526] = "%.1f",	--  TR
+	[527] = "%.1f",	--  ALT 1
 	[528] = "%.1f",	--  ALT2
-	[529] = "%.1f",	--  HUILLE	
-	[530] = "%.1f",	--  T7	
-	[531] = "%.1f",	--  CALC C	
-	[532] = "%.1f",	--  SOURIS	
+	[529] = "%.1f",	--  HUILLE
+	[530] = "%.1f",	--  T7
+	[531] = "%.1f",	--  CALC C
+	[532] = "%.1f",	--  SOURIS
 	[533] = "%.1f",	--  PELLE
-	[534] = "%.1f",	--  B.P	
-	[535] = "%.1f",	--  BP.G	
-	[536] = "%.1f",	--  BP.D	
-	[537] = "%.1f",	--  TRANSF	
+	[534] = "%.1f",	--  B.P
+	[535] = "%.1f",	--  BP.G
+	[536] = "%.1f",	--  BP.D
+	[537] = "%.1f",	--  TRANSF
 	[538] = "%.1f",	--  NIVEAU
-	[539] = "%.1f",	--  HYD 1	
-	[540] = "%.1f",	--  HYD 2	
-	[541] = "%.1f",	--  HYD 3	
-	[542] = "%.1f",	--  EP	
+	[539] = "%.1f",	--  HYD 1
+	[540] = "%.1f",	--  HYD 2
+	[541] = "%.1f",	--  HYD 3
+	[542] = "%.1f",	--  EP
 	[543] = "%.1f",	--  BINGO
-	[544] = "%.1f",	--  P.CAB	
-	[545] = "%.1f",	--  TEMP	
-	[546] = "%.1f",	--  REG O2	
-	[547] = "%.1f",	--  5nm O2	
+	[544] = "%.1f",	--  P.CAB
+	[545] = "%.1f",	--  TEMP
+	[546] = "%.1f",	--  REG O2
+	[547] = "%.1f",	--  5nm O2
 	[548] = "%.1f",	--  O2 HA
-	[549] = "%.1f",	--  ANEMO	
-	[550] = "%.1f",	--  CC	
-	[551] = "%.1f",	--  DSV	
-	[552] = "%.1f",	--  CONDIT	
+	[549] = "%.1f",	--  ANEMO
+	[550] = "%.1f",	--  CC
+	[551] = "%.1f",	--  DSV
+	[552] = "%.1f",	--  CONDIT
 	[553] = "%.1f",	--  CONF
-	[554] = "%.1f",	--  PA	
-	[555] = "%.1f",	--  MAN	
-	[556] = "%.1f",	--  DOM	
-	[557] = "%.1f",	--  BECS	
+	[554] = "%.1f",	--  PA
+	[555] = "%.1f",	--  MAN
+	[556] = "%.1f",	--  DOM
+	[557] = "%.1f",	--  BECS
 	[558] = "%.1f",	--  U.S.EL
-	[559] = "%.1f",	--  ZEICHEN	
-	[560] = "%.1f",	--  GAIN	
-	[561] = "%.1f",	--  RPM	
-	[562] = "%.1f",	--  DECOL	
+	[559] = "%.1f",	--  ZEICHEN
+	[560] = "%.1f",	--  GAIN
+	[561] = "%.1f",	--  RPM
+	[562] = "%.1f",	--  DECOL
 	[563] = "%.1f",	--  PARK.
-	
+
 -- Lamps Right Console
 	[564] = "%.1f",	--	“PRET”  grüne Doppelanzeige, unten
 	[565] = "%.1f",	--	„ALN“
@@ -313,7 +313,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[567] = "%.1f",	--	„N.DEG“
 	[568] = "%.1f",	--	„SEC“
 	[569] = "%.1f",	--	„UNI“
-	[669] = "%.1f",	--  „M01” 	 
+	[669] = "%.1f",	--  „M01”
 	[670] = "%.1f",	--	„M02“
 	[671] = "%.1f",	--	„M03“
 
@@ -333,7 +333,7 @@ ExportScript.ConfigEveryFrameArguments =
 	[603] = "%.4f",	--	3.
 	[604] = "%.4f",	--	4.
 
--- VOR ILS 
+-- VOR ILS
 	[611] = "%.4f",	--	1. Drum
 	[612] = "%.4f",	--	2.
 	[613] = "%.4f",	--	3.
@@ -360,7 +360,7 @@ ExportScript.ConfigEveryFrameArguments =
 
 }
 
-ExportScript.ConfigArguments = 
+ExportScript.ConfigArguments =
 {
 	--[[
 	arguments for export in low tick interval
@@ -373,7 +373,7 @@ ExportScript.ConfigArguments =
 -- Landing Gear
 	[404] = "%.1f",	--Landing Gear Lever
 
--- HUD/VTB	
+-- HUD/VTB
 	[201] = "%.1f",	--HUD Power Switch
 	[203] = "%.1f",	--HUD Decluter Switch
 	[204] = "%.1f",	--HUD Altimeter Selector Switch
@@ -393,7 +393,7 @@ ExportScript.ConfigArguments =
 	[221] = "%.1f",	--VTB Power Switch
 	[222] = "%.1f",	--VTB Switch
 	[223] = "%.1f",	--VTB Switch
-	
+
 -- PCA/PPA +++++++++++ HJP HBook Side 129
 	[463] = "%.1f",	--Gun Arm/Safe Switch
 	[234] = "%.1f",	--Master Arm Switch
@@ -434,7 +434,7 @@ ExportScript.ConfigArguments =
 	[515] = "%.1f",	--Autopilot Test Switch
 	[516] = "%.1f",	--FBW Test Cover
 	[517] = "%.1f",	--FBW Test Switch
-	
+
 --FBW
 	[330] = "%.1f",	--FBW Spin Switch
 	[420] = "%.1f",	--FBW Disconnect Cover
@@ -442,16 +442,16 @@ ExportScript.ConfigArguments =
 	[422] = "%.1f",	--FBW G Limiter Switch
 	[460] = "%.1f",	--Intake slats Operation Switch
 	[461] = "%.1f",	--Intake cones Operation Switch
-	
+
 -- HSI
 	[340] = "%.4f",	--HSI Heading Selector
 	[341] = "%.1f",	--HSI Mode Selector Switch
-	
+
 -- PELLES, SOURIES AND BECS
 	[462] = "%.1f",	--Slats Operation Switch
 	[395] = "%.1f",	--Hydraulic System Selector
 	[396] = "%.1f",	--Pedal Adjust Lever
-	
+
 -- RADAR
 	[481] = "%.1f",	--Radar Illumination Switch
 	[482] = "%.1f",	--Radar Test Switch
@@ -513,7 +513,7 @@ ExportScript.ConfigArguments =
 	[627] = "%.1f",	--INS Mode Selector
 	[629] = "%.1f",	--INS Operational Mode
 	[665] = "%.1f",	--INS Auxiliary Heading/Horizon
-	
+
 -- EW PANEL
 	[228] = "%.4f",	--RWR Light Brightnes Control
 	[605] = "%.1f",	--EW Mode Selector Switch
@@ -522,7 +522,7 @@ ExportScript.ConfigArguments =
 	[608] = "%.1f",	--D2M Switch
 	[609] = "%.1f",	--LL (Jammer) Switch
 	[610] = "%.1f",	--Jammer Strength
-	
+
 -- ECM BOX
 	[194] = "%.1f",	--ECM Box Mode Switch
 	[195] = "%.1f",	--ECM Box Switch
@@ -543,7 +543,7 @@ ExportScript.ConfigArguments =
 	[643] = "%.4f",	--Casution/Advisory Lights Rheostat
 	[644] = "%.4f",	--White Flood Lights Knob
 	[920] = "%.4f",	--Refuel Lights Brightness Knob
-	
+
 -- Engine Start Panel
 	[468] = "%.1f",	--Engine In-Flight Start Switch
 	[467] = "%.1f",	--Engine Shutdown Button
@@ -565,7 +565,7 @@ ExportScript.ConfigArguments =
 	[474] = "%.1f",	--Secondary Oil Control Switch
 	[475] = "%.1f",	--Engine Emergency Control Cover
 	[476] = "%.1f",	--Engine Emergency Control Switch
-	
+
 	-- Radio Panel
 	[429] = "%.1f",	--UHF Power 5W/25W Switch
 	[430] = "%.1f",	--UHF SIL Switch
@@ -592,26 +592,26 @@ ExportScript.ConfigArguments =
 	[617] = "%.1f",	--VOR/ILS Power Dial
 	[618] = "%.1f",	--VOR/ILS Frequency Change Decimal
 	[619] = "%.1f",	--VOR/ILS Test Dial
-	
+
 -- TACAN
 	[623] = "%.1f",	--TACAN Channel Change Tens
 	[624] = "%.1f",	--TACAN X/Y Select
 	[625] = "%.1f",	--TACAN Channel Change Ones
 	[626] = "%.1f",	--TACAN Mode Select
-	
+
 -- Miscelaneous Right Panel
 	[657] = "%.1f",	-- Hydraulic Emergency Pump Switch
 
 -- Miscelaneous Left Panel
 	[191] = "%.1f",	--Audio Warning Reset
-	
+
 -- Miscelaneous Seat
 	[900] = "%.1f",	--Seat adjustment switch
 	[458] = "%.1f",	--Anti-Skid Cover
 	[459] = "%.1f",	--Anti-Skid Switch
 	[666] = "%.1f",	--Parking Brake Lever
 	[807] = "%.1f",	--Nose Wheel Steering / IFF
-	
+
 -- Sound Panel
 	[700] = "%.1f",	--AMPLIS Selector
 	[701] = "%.1f",	--VOR/ILS Volume {0.0,1.0} in 0.1 steps
@@ -699,11 +699,13 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2000, string.format("%7.3f", lUHFRadio:get_frequency()/1000000)) -- <- special function for get frequency data
 	ExportScript.Tools.SendData(2000, ExportScript.Tools.RoundFreqeuncy((UHF_RADIO:get_frequency()/1000000))) -- ExportScript.Tools.RoundFreqeuncy(frequency (MHz|KHz), format ("7.3"), PrefixZeros (false), LeastValue (0.025))
 	]]
-	
+
 	-- ECM Mode Switch
 	-- [194] = "%.1f",	--ECM Box Mode Switch
 	local lECM_On = (mainPanelDevice:get_argument_value(194) > 0.0 and true or false)
 
+--  ECM BOX modified in recent versions of M2000C module cockpit so display functions have been removed
+--[[
 	-- ECM_CHF
 	local lECM_CHF = ExportScript.Tools.getListIndicatorValue(3)
 	if ExportScript.Config.Debug then
@@ -737,6 +739,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	else
 		ExportScript.Tools.SendData(2002, " ")
 	end
+]]
 
 	-- FUEL
 	local lFUEL = ExportScript.Tools.getListIndicatorValue(3)
@@ -858,7 +861,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	end
 	ExportScript.Tools.SendData(2020, string.format("%s", lCOM1))
 	ExportScript.Tools.SendData(2021, string.format("%s", lCOM2))
-	
+
 	-- PPA Bomb Display
 	local lPPA = list_indication(6)
 	if ExportScript.Config.Debug then
@@ -992,7 +995,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 		ExportScript.Tools.WriteToLog("2028: "..string.format("%s", lPCN_main_L))
 		ExportScript.Tools.WriteToLog("2029: "..string.format("%s", lPCN_main_R))
 	end
-	
+
 	lPCN_main_L = lPCN_main_L:gsub(":", "¦")
 	lPCN_main_R = lPCN_main_R:gsub(":", "¦")
 	lPCN_main_L = lPCN_main_L:sub(0, 10)
@@ -1062,20 +1065,20 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 		ExportScript.Tools.WriteToLog("2034: "..string.format("%s", digits[3]))
 		ExportScript.Tools.WriteToLog("2035: "..string.format("%s", digits[4]))
 	end
-	
+
 	ExportScript.Tools.SendData(2032, digits[1])
 	ExportScript.Tools.SendData(2033, digits[2])
 	ExportScript.Tools.SendData(2034, digits[3])
 	ExportScript.Tools.SendData(2035, digits[4])
 
--- VOR ILS 
+-- VOR ILS
 --[[
 	[611] = "%.4f",	--	1. Drum
 	[612] = "%.4f",	--	2.
 	[613] = "%.4f",	--	3.
 	[614] = "%.4f",	--	4.
 	[615] = "%.4f",	--	5.
-]]	
+]]
 	digits = {}
 	digits[1] = string.format("%1.0f",mainPanelDevice:get_argument_value(611) * 10)
 	digits[2] = string.format("%1.0f",mainPanelDevice:get_argument_value(612) * 10)
@@ -1090,7 +1093,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 		ExportScript.Tools.WriteToLog("2036-4: "..string.format("%s", digits[4]))
 		ExportScript.Tools.WriteToLog("2036-5: "..string.format("%s", digits[5]))
 	end
-	
+
 	ExportScript.Tools.SendData(2036, digits[1]..digits[2]..digits[3].."."..digits[4]..digits[5])
 
 -- TACAN
@@ -1109,8 +1112,8 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	digits[3] = (digits[3] == "10" and "0" or digits[3])
 
 	ExportScript.Tools.SendData(2037, digits[1]..digits[2]..digits[3])
-	
--- U/VHF Com 
+
+-- U/VHF Com
 	ExportScript.Tools.SendData(2038, ExportScript.Tools.DisplayFormat(string.format("%1.0f",mainPanelDevice:get_argument_value(440) * 10), 1))
 	ExportScript.Tools.SendData(2039, ExportScript.Tools.DisplayFormat(string.format("%1.0f",mainPanelDevice:get_argument_value(441) * 10), 1))
 	ExportScript.Tools.SendData(2040, ExportScript.Tools.DisplayFormat(string.format("%1.0f",mainPanelDevice:get_argument_value(442) * 10), 1))
@@ -1134,7 +1137,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	--[436] = "%.4f",	-- 	Preset display (1-20)
 	local lUVHF_RADIO_PRESET = {[0.00]="1",[0.10]="2",[0.15]="3",[0.20]="4",[0.25]="5",[0.30]="6",[0.35]="7",[0.40]="8",[0.45]="9",[0.50]="10",[0.55]="11",[0.60]="12",[0.65]="13",[0.70]="14",[0.75]="15",[0.80]="16",[0.85]="17",[0.90]="18",[0.95]="19",[1.00]="20"}
 	ExportScript.Tools.SendData(436, ExportScript.Tools.DisplayFormat(lUVHF_RADIO_PRESET[tonumber(string.format("%1.2f",mainPanelDevice:get_argument_value(436)))], 2))
-	
+
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('436-1: '..ExportScript.Tools.dump(string.format("%1.2f",mainPanelDevice:get_argument_value(436))))
 		ExportScript.Tools.WriteToLog('436-2: '..ExportScript.Tools.dump(lUVHF_RADIO_PRESET[tonumber(string.format("%1.2f",mainPanelDevice:get_argument_value(436)))]))
@@ -1149,7 +1152,7 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 		lTmpNumber = 0.2
 	end
 	ExportScript.Tools.SendData(189, ExportScript.Tools.DisplayFormat(lVHF_RADIO_PRESET[tonumber(string.format("%1.1f",lTmpNumber))]..lVHF_RADIO_PRESET[tonumber(string.format("%1.1f",mainPanelDevice:get_argument_value(189)))], 2))
-	
+
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('189: '..ExportScript.Tools.dump(lVHF_RADIO_PRESET[tonumber(string.format("%1.1f",lTmpNumber))]..lVHF_RADIO_PRESET[tonumber(string.format("%1.1f",mainPanelDevice:get_argument_value(189)))]))
 	end
@@ -1172,14 +1175,14 @@ function ExportScript.ProcessIkarusDCSConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(225, string.format("%1.0f",digits[2]))
 	ExportScript.Tools.SendData(226, string.format("%1.0f",digits[3]))
 	ExportScript.Tools.SendData(227, string.format("%1.0f",digits[4]))
-	
+
 	if ExportScript.Config.Debug then
 		ExportScript.Tools.WriteToLog('224: '..ExportScript.Tools.dump(string.format("%1.0f",mainPanelDevice:get_argument_value(224) * 10)))
 		ExportScript.Tools.WriteToLog('225: '..ExportScript.Tools.dump(string.format("%1.0f",mainPanelDevice:get_argument_value(225) * 10)))
 		ExportScript.Tools.WriteToLog('226: '..ExportScript.Tools.dump(string.format("%1.0f",mainPanelDevice:get_argument_value(226) * 10)))
 		ExportScript.Tools.WriteToLog('227: '..ExportScript.Tools.dump(string.format("%1.0f",mainPanelDevice:get_argument_value(227) * 10)))
 	end
-	
+
 	ExportScript.Tools.FlushData()
 end
 
@@ -1196,6 +1199,8 @@ function ExportScript.ProcessDACConfigLowImportance(mainPanelDevice)
 	ExportScript.Tools.SendDataDAC("2000", ExportScript.Tools.RoundFreqeuncy((UHF_RADIO:get_frequency()/1000000))) -- ExportScript.Tools.RoundFreqeuncy(frequency (MHz|KHz), format ("7.3"), PrefixZeros (false), LeastValue (0.025))
 	]]
 
+-- ECM BOX modified in recent versions of M2000C module cockpit so display functions have been removed
+--[[
 	-- ECM_CHF
 	local lECM_CHF = ExportScript.Tools.getListIndicatorValue(3)
 
@@ -1215,9 +1220,9 @@ function ExportScript.ProcessDACConfigLowImportance(mainPanelDevice)
 	else
 		ExportScript.Tools.SendDataDAC(2002, "-")
 	end
-
+]]
 	-- FUEL
-	local lFUEL = ExportScript.Tools.getListIndicatorValue(5)
+	local lFUEL = ExportScript.Tools.getListIndicatorValue(3)
 
 	if lFUEL ~= nil and lFUEL.txt_fuel_g ~= nil then
 		-- string with max 3 charachters
@@ -1300,8 +1305,8 @@ function ExportScript.ProcessDACConfigLowImportance(mainPanelDevice)
 	--[[
 	ExportScript.Tools.WriteToLog('list_cockpit_params(): '..ExportScript.Tools.dump(list_cockpit_params()))
 	ExportScript.Tools.WriteToLog('CMSP: '..ExportScript.Tools.dump(list_indication(7)))
-	
-	-- list_indication get tehe value of cockpit displays
+
+	-- list_indication get the value of cockpit displays
 	local ltmp1 = 0
 	for ltmp2 = 0, 20, 1 do
 		ltmp1 = list_indication(ltmp2)
@@ -1323,3 +1328,4 @@ end
 -----------------------------
 --     Custom functions    --
 -----------------------------
+
