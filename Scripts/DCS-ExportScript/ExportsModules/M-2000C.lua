@@ -692,6 +692,22 @@ function ExportScript.ProcessIkarusDCSConfigHighImportance(mainPanelDevice)
 	ExportScript.Tools.SendData(2000, string.format("%7.3f", lUHFRadio:get_frequency()/1000000)) -- <- special function for get frequency data
 	ExportScript.Tools.SendData(2000, ExportScript.Tools.RoundFreqeuncy((UHF_RADIO:get_frequency()/1000000))) -- ExportScript.Tools.RoundFreqeuncy(frequency (MHz|KHz), format ("7.3"), PrefixZeros (false), LeastValue (0.025))
 	]]
+
+	--FUEL
+	ExportScript.Tools.SendData("Fuel", "Start")
+	digits = {}
+	digits[1] = string.format("%1.0f",mainPanelDevice:get_argument_value(349) * 10)
+	digits[2] = string.format("%1.0f",mainPanelDevice:get_argument_value(350) * 10)
+	digits[3] = string.format("%1.0f",mainPanelDevice:get_argument_value(351) * 10)
+	ExportScript.Tools.SendData(2053, digits[1] .. digits[2] .. digits[3] .. "0")
+
+	digits = {}
+	digits[1] = string.format("%1.0f",mainPanelDevice:get_argument_value(352) * 10)
+	digits[2] = string.format("%1.0f",mainPanelDevice:get_argument_value(353) * 10)
+	digits[3] = string.format("%1.0f",mainPanelDevice:get_argument_value(354) * 10)
+	ExportScript.Tools.SendData(2054, digits[1] .. digits[2] .. digits[3] .. "0")
+
+
 end
 
 function ExportScript.ProcessDACConfigHighImportance(mainPanelDevice)

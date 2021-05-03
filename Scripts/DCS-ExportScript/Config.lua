@@ -15,7 +15,7 @@ ExportScript.Config.IkarusPort      = 1625         -- Port Ikarus (1625)
 ExportScript.Config.IkarusSeparator = ":"
 
 -- D.A.C. (DCS Arcaze Connector)
-ExportScript.Config.DACExport        = false        -- true for use
+ExportScript.Config.DACExport        = true        -- true for use
 ExportScript.Config.DAC              = {}
 -- first hardware
 ExportScript.Config.DAC[1]           = {}
@@ -29,15 +29,15 @@ ExportScript.Config.DAC[1].Separator = ":"
 --ExportScript.Config.DAC[2].Separator = ":"
 
 -- Ikarus and D.A.C. can data send
-ExportScript.Config.Listener         = true         -- false for not use
+ExportScript.Config.Listener         = false         -- false for not use
 ExportScript.Config.ListenerPort     = 26027        -- Listener Port for D.A.C.
 
 -- Other
 ExportScript.Config.ExportInterval         = 0.05	-- export evry 0.05 secounds
-ExportScript.Config.ExportLowTickInterval  = 0.5	-- export evry 0.5 secounds
+ExportScript.Config.ExportLowTickInterval  = 1	-- export evry 0.5 secounds
 ExportScript.Config.LogPath                = lfs.writedir()..[[Logs\Export.log]]
 ExportScript.Config.ExportModulePath       = lfs.writedir()..[[Scripts\DCS-ExportScript\ExportsModules\]]
 ExportScript.Config.Debug                  = false
-ExportScript.Config.SocketDebug            = false
+ExportScript.Config.SocketDebug            = true
 ExportScript.Config.FirstNewDataSend       = true
 ExportScript.Config.FirstNewDataSendCount  = 100
